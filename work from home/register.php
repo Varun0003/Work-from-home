@@ -4,7 +4,7 @@ session_start();
 
 $dbhost="localhost";
 $dbuser="root";
-$dbpass="varun@03";
+$dbpass="";
 $db="workfromhome";
 
 

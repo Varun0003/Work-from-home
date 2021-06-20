@@ -1,7 +1,7 @@
 <?php
 $dbhost="localhost";
 $dbuser="root";
-$dbpass="varun@03";
+$dbpass="";
 $db="workfromhome";
 
 $conn= new mysqli($dbhost,$dbuser,$dbpass,$db);
