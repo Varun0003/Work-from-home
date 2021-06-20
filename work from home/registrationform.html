@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>
+        registration form
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/registrationform.css">
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <img src="logo.png" width="200">
+            <p>registration Form</p>
+        </div>
+        <form action="dataput.php" method="POST">
+            <div class="name"><label>First Name</label>
+                <input type="text" name="fname">
+                <label >Last Name</label>
+                <input type="text" name="lname"></div><br>
+           <div class="gap"><label>Email</label>
+            <input type="email" name="email" width="200" height="200"><br></div> 
+          <div class="phn"> <label>Phone Number</label>
+            <input type="tel" name="phone"><br></div>  
+
+          <div class="sub"> <input type="submit" name="submit" value="submit"></div>
+            
+        </form>
+
+    </div>
+    
+</body>
+</html>
